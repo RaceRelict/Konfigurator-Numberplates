@@ -1,4 +1,4 @@
-KTM Konfigurator
+# KTM Konfigurator
 
 Hier kannst du dein KTM-Logo auf der Mini Plate platzieren.
 
