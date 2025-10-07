@@ -2,4 +2,4 @@
 
 Wähle deine Motorradmarke:
 
-- KTM
+- ktm.md
