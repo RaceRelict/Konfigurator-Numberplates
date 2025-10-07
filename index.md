@@ -1,4 +1,5 @@
+# Willkommen bei RaceRelict
 
-# Konfigurator Numberplates
+Hier kannst du dein Logo auf einer Mini Plate platzieren. Bald kommt ein interaktiver Designer!
 
-Hier kannst du dein Numberplate nach deinen eigenen Wünschen gestalten. Wähle dazu deine gewünschte Marke aus und los gehts!
+
