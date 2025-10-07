@@ -1,1 +1,2 @@
 # configurator
+title: Konfigurator
