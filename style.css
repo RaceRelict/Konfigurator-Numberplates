@@ -1,7 +1,7 @@
 /* Allgemeine Einstellungen */
 body {
     background-color: #000000; /* Schwarz */
-    color: #FF0000;            /* Rot */
+    color: #ffffff;            /* Rot */
     font-family: Arial, sans-serif;
     font-size: 32px;           /* Standard-Schriftgröße */
     margin: 0;
@@ -10,7 +10,7 @@ body {
 
 /* Überschriften */
 h1, h2, h3, h4, h5, h6 {
-    color: #FF0000;
+    color: #ffffff;
     font-weight: bold;
 }
 
