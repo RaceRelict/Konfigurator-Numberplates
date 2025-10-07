@@ -1,25 +1,40 @@
 body {
   font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: #333;
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #ff6600;
+  padding: 10px;
+  text-align: center;
 }
 
 nav button {
   margin: 5px;
-  padding: 10px;
-  background-color: #ff6600;
-  color: white;
+  padding: 10px 20px;
+  background-color: white;
   border: none;
   cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
 }
 
 #configurator {
-  margin-top: 20px;
-  padding: 20px;
   background-color: white;
   border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
 }
+
