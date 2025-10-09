@@ -1,24 +1,43 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>RaceRelict – Markenwahl</title>
+  <title>RaceRelict – Mini Plate Konfigurator</title>
   <style>
+    /* Grundlegende Formatierung für die Seite */
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
     }
+
+    /* Zentrierte Überschrift */
     h1 {
       text-align: center;
     }
-    .brand-buttons {
+
+    /* Container für eine Zeile von Marken-Buttons */
+    .brand-row {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-      margin-top: 30px;
+      justify-content: center;
+      margin-bottom: 30px;
+      gap: 20px;
     }
+
+    /* Block für jede Marke: enthält Button und Bild */
+    .brand-block {
+      text-align: center;
+    }
+
+    /* Platzhalter-Bild unter dem Button */
+    .brand-block img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-top: 10px;
+      border: 1px dashed #ccc;
+    }
+
+    /* Stil für die Buttons */
     button {
       padding: 10px 20px;
       font-size: 16px;
@@ -27,26 +46,79 @@
   </style>
 </head>
 <body>
+  <!-- Hauptüberschrift -->
   <h1>RaceRelict – Mini Plate Konfigurator</h1>
-  <p style="text-align:center;">Wähle eine Marke, um den Konfigurator zu starten:</p>
-  <div class="brand-buttons">
-    <button onclick="openConfigurator('ktm')">KTM</button>
-    <button onclick="openConfigurator('husqvarna')">Husqvarna</button>
-    <button onclick="openConfigurator('gasgas')">GASGAS</button>
-    <button onclick="openConfigurator('beta')">Beta</button>
-    <button onclick="openConfigurator('honda')">Honda</button>
-    <button onclick="openConfigurator('kawasaki')">Kawasaki</button>
-    <button onclick="openConfigurator('starkvarg')">Stark Varg</button>
-    <button onclick="openConfigurator('suzuki')">Suzuki</button>
-    <button onclick="openConfigurator('triumph')">Triumph</button>
-    <button onclick="openConfigurator('yamaha')">Yamaha</button>
+
+  <!-- Einleitungstext -->
+  <p style="text-align:center;">Wähle deine Motorradmarke:</p>
+
+  <!-- Erste Zeile mit 5 Marken -->
+  <div class="brand-row">
+    <!-- KTM -->
+    <div class="brand-block">
+      <!-- Button öffnet neue Seite für KTM -->
+      <button onclick="window.open('ktm_konfigurator.html', '_blank')">KTM</button>
+      <!-- Platzhalter für KTM-Bild -->
+      <img src="" alt="Bild für KTM" />
+    </div>
+
+    <!-- Husqvarna -->
+    <div class="brand-block">
+      <button onclick="window.open('husqvarna_konfigurator.html', '_blank')">Husqvarna</button>
+      <img src="" alt="Bild für Husqvarna" />
+    </div>
+
+    <!-- GASGAS -->
+    <div class="brand-block">
+      <button onclick="window.open('gasgas_konfigurator.html', '_blank')">GASGAS</button>
+      <img src="" alt="Bild für GASGAS" />
+    </div>
+
+    <!-- Beta -->
+    <div class="brand-block">
+      <button onclick="window.open('beta_konfigurator.html', '_blank')">Beta</button>
+      <img src="" alt="Bild für Beta" />
+    </div>
+
+    <!-- Honda -->
+    <div class="brand-block">
+      <button onclick="window.open('honda_konfigurator.html', '_blank')">Honda</button>
+      <img src="" alt="Bild für Honda" />
+    </div>
   </div>
 
-  <script>
-    function openConfigurator(brand) {
-      const url = brand + "_konfigurator.html";
-      window.open(url, "_blank");
-    }
-  </script>
+  <!-- Zweite Zeile mit weiteren 5 Marken -->
+  <div class="brand-row">
+    <!-- Kawasaki -->
+    <div class="brand-block">
+      <button onclick="window.open('kawasaki_konfigurator.html', '_blank')">Kawasaki</button>
+      <img src="" alt="Bild für Kawasaki" />
+    </div>
+
+    <!-- Stark Varg -->
+    <div class="brand-block">
+      <button onclick="window.open('starkvarg_konfigurator.html', '_blank')">Stark Varg</button>
+      <img src="" alt="Bild für Stark Varg" />
+    </div>
+
+    <!-- Suzuki -->
+    <div class="brand-block">
+      <button onclick="window.open('suzuki_konfigurator.html', '_blank')">Suzuki</button>
+      <img src="" alt="Bild für Suzuki" />
+    </div>
+
+    <!-- Triumph -->
+    <div class="brand-block">
+      <button onclick="window.open('triumph_konfigurator.html', '_blank')">Triumph</button>
+      <img src="" alt="Bild für Triumph" />
+    </div>
+
+    <!-- Yamaha -->
+    <div class="brand-block">
+      <button onclick="window.open('yamaha_konfigurator.html', '_blank')">Yamaha</button>
+      <img src="" alt="Bild für Yamaha" />
+    </div>
+  </div>
 </body>
 </html>
+
