@@ -50,4 +50,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+
+.container {
+  display: flex;
+  flex-direction: column; /* sorgt für vertikale Ausrichtung */
+  gap: 10px; /* Abstand zwischen den Elementen */
+}
+
+    
 }
