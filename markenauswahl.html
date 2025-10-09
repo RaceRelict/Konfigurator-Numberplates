@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>RaceRelict – Markenwahl</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .brand-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 30px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>RaceRelict – Mini Plate Konfigurator</h1>
+  <p style="text-align:center;">Wähle eine Marke, um den Konfigurator zu starten:</p>
+  <div class="brand-buttons">
+    <button onclick="openConfigurator('ktm')">KTM</button>
+    <button onclick="openConfigurator('husqvarna')">Husqvarna</button>
+    <button onclick="openConfigurator('gasgas')">GASGAS</button>
+    <button onclick="openConfigurator('beta')">Beta</button>
+    <button onclick="openConfigurator('honda')">Honda</button>
+    <button onclick="openConfigurator('kawasaki')">Kawasaki</button>
+    <button onclick="openConfigurator('starkvarg')">Stark Varg</button>
+    <button onclick="openConfigurator('suzuki')">Suzuki</button>
+    <button onclick="openConfigurator('triumph')">Triumph</button>
+    <button onclick="openConfigurator('yamaha')">Yamaha</button>
+  </div>
+
+  <script>
+    function openConfigurator(brand) {
+      const url = brand + "_konfigurator.html";
+      window.open(url, "_blank");
+    }
+  </script>
+</body>
+</html>
